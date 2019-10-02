@@ -1,0 +1,18 @@
+{
+  "error": {
+    "title": "Sorry an error occurred"
+  },
+
+  "404": {
+    "title": "This page cannot be found"
+  },
+
+  "418": {
+    "title": "Sorry an error occurred",
+    "message": "The error comes from asyncData"
+  },
+
+  "unauthorized": {
+    "title": "Sorry you are not authorized to access this page"
+  }
+}

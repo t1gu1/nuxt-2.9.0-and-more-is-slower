@@ -1,0 +1,22 @@
+{
+    "home": {
+        "title": "Home - City of Longueuil",
+        "description": "Environment and Sustainable Development · Recreation, Outdoor and Sports · Arts and Culture · Community and Social Development · Discover Longueuil."
+    },
+    "events": {
+        "title": "Events - City of Longueuil",
+        "description": "All events in the Longueuil city are listed here"
+    },
+    "news": {
+        "title": "News - City of Longueuil",
+        "description": "All the latest news from the city of Longueuil"
+    },
+    "services": {
+        "title": "Services - City of Longueuil",
+        "description": "Consult the list of services to citizens. Evaluation, Gala, Accommodation, Brochure ..."
+    },
+    "interactive-maps": {
+        "title": "Interactive maps - City of Longueuil",
+        "description": "All the interactive maps from the city of Longueuil"
+    }
+}

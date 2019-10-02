@@ -1,0 +1,8 @@
+{
+    "account": {
+        "login": "Connexion",
+        "logout": "Déconnexion",
+        "title": "Mon Compte",
+        "profile": "Profil"
+    }
+}

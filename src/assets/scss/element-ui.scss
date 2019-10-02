@@ -1,0 +1,89 @@
+// Import Custom Variables
+@import 'variables';
+
+/* icon font path, required */
+$--font-path: './../../node_modules/element-ui/lib/theme-chalk/fonts';
+@import '~element-ui/packages/theme-chalk/src/index';
+
+// Overwrite components global style below (if you can't with variables)
+
+.el-main,
+.el-header,
+.el-footer {
+    overflow: unset;
+    padding: 0;
+}
+
+.el-menu {
+    &.no-border {
+        border: none;
+        * {
+            border: none !important;
+        }
+    }
+}
+
+* {
+    &.no-border {
+        border: none;
+    }
+}
+
+.image-slot {
+    display: flex;
+}
+
+.el-input__inner {
+    background-color: transparent;
+
+    ::placeholder {
+        color: $--color-gray;
+        text-transform: uppercase;
+    }
+
+    &[type='number'] {
+        text-align: right;
+    }
+}
+
+.el-form-item__label {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.el-form--label-top .el-form-item__label {
+    padding-bottom: 0;
+}
+
+.el-input--suffix .el-input__inner {
+    padding-right: 8px;
+}
+
+.el-form-item__label {
+    line-height: 1.2;
+    margin-bottom: 10px;
+
+    .bubble-info__icon {
+        margin-bottom: -4px;
+        margin-top: -3px;
+    }
+}
+
+.el-input__suffix {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 1em;
+    padding-right: 4px;
+    padding-left: 3px;
+    color: $--color-black;
+    pointer-events: none;
+    user-select: none;
+    z-index: -1;
+
+    i {
+        font-style: normal;
+        pointer-events: none;
+        user-select: none;
+    }
+}

@@ -1,0 +1,55 @@
+// Customize ElementUI theme variables
+// https://github.com/ElementUI/theme-chalk/blob/master/src/common/var.scss
+
+// Font family names
+//$font-d-din: 'd-din';
+//$font-d-din: 'd-din-exp';
+
+$font-base: 'Montserrat';
+
+/* theme color */
+$--color-primary: #cc0000;
+// $--color-primary-light-1: #1050ec;
+$--color-success: #339901;
+$--color-warning: #fdcc01;
+$--color-danger: #fb0001;
+$--color-info: #515151;
+
+$--color-facebook: #4267b2;
+$--color-google: #ea4335;
+
+$--color-white: #ffffff;
+$--color-black: #333333;
+
+$--color-link: #320c95;
+$--color-blue: #320c95;
+$--color-light-gray: #f7f7f7;
+$--color-gray-active: #ebebeb;
+$--color-gray: #999999;
+$--color-dark-gray: #777777;
+
+$--color-text-regular: $--color-black;
+
+$--input-focus-border: $--color-info;
+$--select-input-focus-border-color: $--color-info;
+$--input-font-size: rem(11px);
+
+$content-padding: 60px;
+
+/* ------ BREAK-POINTS ------ */
+//$--sm: 768px; // Default
+//$--md: 992px; // Default
+//$--lg: 1380px;
+//$--xl: 1920px; // Default
+
+/*
+::selection, *::selection {
+  background: $--color-warning;
+  color: white;
+}
+
+:focus {
+  outline-color: $--color-warning;
+}
+*/
+@import '~element-ui/packages/theme-chalk/src/common/var';

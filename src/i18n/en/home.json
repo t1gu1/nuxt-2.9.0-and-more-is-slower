@@ -1,0 +1,16 @@
+{
+    "title": "Home",
+    "welcome": "Welcome",
+    "todaysEvent": "Today, in Longueuil",
+    "link": "Link",
+    "actionsTitle": "ACTIONS",
+    "missNothing": "Doesn't miss anything",
+    "events": {
+        "title": "Events to come",
+        "allLabel": "See all events to come"
+    },
+    "news": {
+        "title": "News to come",
+        "allLabel": "See all news to come"
+    }
+}

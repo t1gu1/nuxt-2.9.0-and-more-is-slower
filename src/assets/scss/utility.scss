@@ -1,0 +1,16 @@
+//  -----------------------------
+//  Utility classes
+//  -----------------------------
+
+.clearfix {
+    @include clearfix;
+}
+.visually-hidden,
+.visuallyhidden {
+    @include visuallyhidden;
+}
+::selection {
+    color: $--color-white;
+    background: $--color-black;
+    text-shadow: none;
+}

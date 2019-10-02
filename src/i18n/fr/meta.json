@@ -1,0 +1,22 @@
+{
+    "home": {
+        "title": "Accueil - Ville de Longueuil",
+        "description": "Environnement et développement durable · Loisirs, plein air et sports · Arts et culture · Développement social et communautaire · Découvrez Longueuil."
+    },
+    "events": {
+        "title": "Événements - Ville de Longueuil",
+        "description": "Tous les événements dans la ville de Longueuil sont répertoriés ici"
+    },
+    "news": {
+        "title": "Nouvelles - Ville de Longueuil",
+        "description": "Toutes les dernières nouvelles d'actualités de la ville de Longueuil"
+    },
+    "services": {
+        "title": "Services - Ville de Longueuil",
+        "description": "Consultez la liste de services aux citoyens. Évaluation, gala, logement, brochure ..."
+    },
+    "interactive-maps": {
+        "title": "Cartes intéractives - Ville de Longueuil",
+        "description": "Toutes les cartes intéractives de la ville de Longueuil"
+    }
+}

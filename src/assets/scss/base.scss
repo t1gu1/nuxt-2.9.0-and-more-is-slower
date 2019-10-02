@@ -1,0 +1,30 @@
+//  -----------------------------
+//  Generic style
+//  -----------------------------
+
+* {
+    font-display: auto;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.grid-container {
+    width: 100%;
+}
+
+// WYSIWYG content
+*[class*="wysiwyg"] {
+    a {
+        color: $--color-primary;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+// Add custom fonts here
+
+// https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap
+html, body, button, div.addeventatc, input, input[attribute^="el-input"], *[attribute^="el-"] {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 1.5em;
+}

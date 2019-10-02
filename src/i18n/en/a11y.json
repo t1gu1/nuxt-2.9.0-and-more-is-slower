@@ -1,0 +1,29 @@
+{
+    "menu": {
+        "returnMenu": "Return to main menu",
+        "returnContent": "Return to content",
+        "skipContent": "Skip to content",
+        "skipFooter": "Skip to the page footer",
+        "open": "Open menu",
+        "close": "Close menu",
+        "fr": "Switch to french. Changer la traduction du site en français.",
+        "en": "Switch to english. Changer la traduction du site en englais.",
+        "notifications": "Notifications list menu"
+    },
+    "alerts": {
+        "closeButton": "Hide the alert"
+    },
+    "filter": {
+        "hideFilters": "Hide filter section"
+    },
+    "searchBars": {
+        "headerMain": "Main search bar",
+        "searchButton": "Search with the content present in"
+    },
+    "link": {
+        "active": "Vous êtes actuellement sur la page de ce lien",
+        "articleLink": "Lien vers l'article",
+        "eventLink": "Lien vers l'evenement",
+        "newsLink": "Lien vers la nouvelle"
+    }
+}

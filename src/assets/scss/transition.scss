@@ -1,0 +1,24 @@
+// Animation after async data (FADE IN & FADE OUT)
+.fade-enter-active {
+    transition: opacity .75s;
+}
+
+.fade-leave-active {
+    transition: opacity .25s;
+}
+
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+// Animation on link click (Before page load) Gray
+.el-main {
+    min-height: 600px;
+    transition: 1s all;
+    filter: grayscale(0) blur(0px);
+    opacity: 1;
+    &.main-content-loading {
+        filter: grayscale(1) blur(0px);
+        opacity: 0.5;
+    }
+}

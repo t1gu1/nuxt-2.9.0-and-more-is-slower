@@ -1,0 +1,8 @@
+{
+    "account": {
+        "login": "Login",
+        "logout": "Logout",
+        "title": "My Account",
+        "profile": "Profile"
+    }
+}

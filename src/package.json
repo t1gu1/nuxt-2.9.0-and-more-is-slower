@@ -1,0 +1,79 @@
+{
+	"name": "speedtest",
+	"version": "1.0.0",
+	"description": "Nuxt 2.9.0 speed drop",
+	"author": {
+		"name": "Guillaume Huard Hughes"
+	},
+	"contributors": [
+		{
+			"name": "Mathieu Savage"
+		},
+		{
+			"name": "Guillaume Huard Hughes"
+		}
+	],
+	"private": true,
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development nuxt",
+		"build": "nuxt build",
+		"build-production": "cross-env NODE_ENV=production nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate",
+		"lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+		"lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+		"lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+		"lint:js:fix": "eslint --ext .js,.vue --fix --ignore-path .gitignore .",
+		"lint:scss:assets": "sass-lint -c .sass-lint.yml -vv 'src/assets/scss/**/*.scss'",
+		"lint:scss:vue": "sass-lint-vue -c .sass-lint.yml src",
+		"lint:scss": "npm run lint:scss:assets && npm run lint:scss:vue",
+		"doc:generate": "jsdoc -c .jsdoc.conf.json src/**/*",
+		"predoc:coverage": "if ! gem list inch -i; then echo 'Installing Gem Inch'; gem install inch || sudo gem install inch; fi",
+		"doc:coverage": "inchjs list",
+		"precommit": "npm run lint"
+	},
+	"dependencies": {
+		"@nuxtjs/axios": "^5.6.0",
+		"@nuxtjs/dotenv": "^1.4.1",
+		"@nuxtjs/moment": "^1.3.0",
+		"@nuxtjs/pwa": "^3.0.0-beta.19",
+		"@nuxtjs/style-resources": "^1.0.0",
+		"array-from-polyfill": "^1.0.1",
+		"cross-env": "^6.0.3",
+		"element-ui": "^2.12.0",
+		"js-cookie": "^2.2.1",
+		"nuxt": "2.9.0",
+		"nuxt-i18n": "^6.3.0",
+		"nuxt-vuex-localstorage": "^1.2.6",
+		"swagger-client": "^3.9.4",
+		"validator": "^11.1.0",
+		"vue-click-outside": "^1.0.7",
+		"vue-mixin-tween": "^0.1.3",
+		"vuex-persistedstate": "^2.5.4"
+	},
+	"devDependencies": {
+		"@nuxtjs/eslint-config": "^1.1.2",
+		"@nuxtjs/eslint-module": "^1.1.0",
+		"babel-eslint": "^10.0.3",
+		"eslint": "^5.16.0",
+		"eslint-config-airbnb": "^18.0.1",
+		"eslint-config-prettier": "^6.3.0",
+		"eslint-config-standard": "^14.1.0",
+		"eslint-loader": "^3.0.2",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-jest": "^22.17.0",
+		"eslint-plugin-node": "^10.0.0",
+		"eslint-plugin-nuxt": "^0.4.3",
+		"eslint-plugin-prettier": "^3.1.1",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
+		"eslint-plugin-standard": "^4.0.1",
+		"eslint-plugin-vue": "^5.2.3",
+		"node-sass": "^4.12.0",
+		"nodemon": "^1.19.3",
+		"prettier": "^1.18.2",
+		"sass-lint": "^1.13.1",
+		"sass-lint-vue": "^0.4.0",
+		"sass-loader": "^8.0.0"
+	}
+}

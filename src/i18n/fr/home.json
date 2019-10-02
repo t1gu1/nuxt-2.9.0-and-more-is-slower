@@ -1,0 +1,16 @@
+{
+    "title": "Accueil",
+    "welcome": "Bonjour",
+    "todaysEvent": "Aujourd'hui, à Longueuil",
+    "link": "Lien",
+    "actionsTitle": "Quelques actions du moment",
+    "missNothing": "Restez à l'affût",
+    "events": {
+        "title": "Événements à venir",
+        "allLabel": "Voir tous les événements"
+    },
+    "news": {
+        "title": "Nouvelles à venir",
+        "allLabel": "Voir toutes les nouvelles à venir"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "error": {
+    "title": "Désolé, une erreur est survenue"
+  },
+
+  "404": {
+    "title": "La page est introuvable"
+  },
+
+  "418": {
+    "title": "Un erreur interne s'est produite.",
+    "message": "L'erreur provient du asyncData"
+  },
+
+  "unauthorized": {
+    "title": "Désolé vous n'êtes pas autorisé à acceder à cette page"
+  }
+}
